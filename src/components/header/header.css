@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     flex: 1;
+    font-weight: bold;
   }
   
   a {
@@ -49,8 +50,11 @@
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    font-weight: bold;
   }
-  
+  .dropbtn{
+    font-weight: bold;
+  }
   .header-button button {
     background-color: #333;
     color: rgb(0, 0, 0);

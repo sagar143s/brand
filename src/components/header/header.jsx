@@ -25,13 +25,13 @@ const Header = () => {
         <img src={Logo} style={{ maxWidth: '150px' }} />
       </div>
       <div className="header-navigation">
-        <a href="#">Navigation 1</a>
+        <a href="#">BRANDS</a>
         <div className="dropdown">
           <button
             className="dropbtn"
             onClick={() => toggleDropdown(1)}
           >
-            Navigation 2
+            RETAIL
           </button>
           <div className={`dropdown-content ${isDropdown1Open ? 'show' : ''}`}>
             <a href="#">Option 1</a>
@@ -43,15 +43,15 @@ const Header = () => {
             className="dropbtn"
             onClick={() => toggleDropdown(2)}
           >
-            Navigation 3
+            BEYOND US
           </button>
           <div className={`dropdown-content ${isDropdown2Open ? 'show' : ''}`}>
             <a href="#">Option 3.1</a>
             <a href="#">Option 3.2</a>
           </div>
         </div>
-        <a href="#">Navigation 4</a>
-        <a href="#">Navigation 5</a>
+        <a href="#">HISTORY</a>
+        <a href="#">CONTACT US</a>
  
       </div>
       <div className="header-button">

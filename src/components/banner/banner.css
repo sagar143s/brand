@@ -1,0 +1,47 @@
+.banner {
+    position: relative;
+    text-align: center;
+    background-color: #333; /* Set your preferred background color */
+    color: #fff; /* Set your preferred text color */
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+  }
+  
+  .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .banner-title {
+    font-size: 6rem; /* Set your preferred font size */
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  .banner-title1 {
+    font-size: 6rem; /* Set your preferred font size */
+    margin-bottom: 20px; /* Adjust as needed */
+    margin-top: -10px;
+  }
+  
+  .banner-button {
+    background-color: #000; /* Set your preferred button color */
+    color: #fff; /* Set your preferred button text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 2rem; /* Set your preferred button font size */
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .banner-button:hover {
+    background-color: #ffffff; /* Change the color on hover */
+    color: #000;
+  }
+  
