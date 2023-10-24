@@ -1,0 +1,117 @@
+@media only screen and (min-width:768px){
+    .network{
+        display: flex;
+    }
+    .testimonial {
+      display: flex;
+      margin-top: 100px;
+
+    }
+    .testi{
+      padding-top: 50px;
+    }
+}
+.divider {
+    display: block;
+    background-color: rgba(230, 225, 225, 0.705);
+    width: 100%;
+    height: 1px;
+    margin: 20px 0;
+}
+/* .banner04bg {
+    background-image: url('../../assets/h5-slider1-2.jpg');
+    z-index: -999;
+} */
+.gallery {
+  position: relative;
+  width: 100%;
+  height: 50vh; 
+  margin: 35px 0 0 35px;
+}
+
+.center-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  max-width: 500px; 
+  max-height: 500px; 
+  width: auto;
+  height: auto;
+}
+
+.corner-image {
+  position: absolute;
+  max-width: 500px;
+  max-height: 500px; 
+  object-fit: cover;
+ 
+}
+
+.top-left {
+  top: 10px; 
+  left: 10px;
+}
+
+.top-right {
+  top: 10px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the right position as needed */
+}
+
+.bottom-left {
+  bottom: 10px; /* Adjust the bottom position as needed */
+  left: 10px; /* Adjust the left position as needed */
+}
+
+.bottom-right {
+  bottom: 10px; /* Adjust the bottom position as needed */
+  right: 10px; /* Adjust the right position as needed */
+}
+@media only screen and (max-width:950px){
+.gallery{
+  display: none;
+}
+}
+.testimonial {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.459);
+  /* background: rgb(255, 255, 255);
+  back */
+  background-image: url('../../assets//h5-slider1-2.jpg');
+  border-radius: 15px;
+  padding: 50px 50px 20px 50px;
+  z-index: 999;
+  display: inline-flex;
+}
+.testimonial-text {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  background: rgb(226, 226, 226);
+  border-radius: 15px;
+  padding: 20px; /* Reduced padding for better styling */
+  font-family: "Your Desired Font", sans-serif; /* Change "Your Desired Font" to your preferred font */
+  font-size: 16px; /* Adjust the font size as needed */
+  font-style: italic; /* Apply italics to the text */
+}
+.profile {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile-image {
+  border-radius: 50%; /* Rounded profile image */
+  max-width: 100px;
+  margin-right: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Box shadow */
+}
+
+.profile-info {
+  font-weight: bold; /* Make the name bold */
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+.profile-job {
+  color: #888; /* Adjust the color of the job title */
+  font-size: 14px; /* Adjust the font size as needed */
+  margin-top: 5px;
+}

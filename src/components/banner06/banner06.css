@@ -1,0 +1,38 @@
+.backgrounds{
+    background-image: url('../../assets//04\ \(1\).jpg');
+}
+.box-container {
+    display: flex;
+    justify-content: space-around; /* Adjust to your preferred spacing */
+    flex-wrap: wrap;
+    max-width: 800px; /* Adjust to your preferred maximum width */
+  }
+  
+  .box {
+    text-align: center;
+    margin: 10px; /* Adjust the margin for spacing between boxes */
+    flex: 1; /* Equal distribution of space among boxes */
+    padding: 20px;
+  }
+  .boxicon {
+    position: relative;
+    width: 100px; /* Adjust the width to control the size of the hexagon */
+    height: 108px; /* Adjust the height to control the size of the hexagon */
+  
+    background-color: rgb(32, 32, 32);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    margin: 0 auto; /* Center the hexagon horizontally */
+  }
+  
+  .boxicon:hover {
+    background-color: rgba(233, 230, 230, 0.342);
+
+  }
+  
+  .boxicon svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  

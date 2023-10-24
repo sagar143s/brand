@@ -1,0 +1,147 @@
+.banner-container{
+    background-image: url('../../assets//abstract-black-02.jpg');
+    max-height: 850px;}
+.banner-icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .icon {
+    text-align: center;
+  }
+  
+  .icon-box {
+    background-color: #fff;
+    padding: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+  #bigbox{
+    padding: 100px 0 100px;
+  }
+  .youtube01{
+    background-image: url('../../assets//imgg.png');
+    max-height: 300px;
+    width: 100%;
+    min-height: 450px;
+    object-fit: fill;
+    margin-top: 100px;
+    border-radius: 25px;
+  }
+  .icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #666666;
+    width: 100px; /* Adjust the width as needed */
+    height: 115px; /* Adjust the height as needed to create the hexagon shape */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    padding: 10px 0;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    position: relative; /* Add this */
+    overflow: hidden; /* Add this */
+}
+
+
+
+  .icon-box img{
+    max-width: 50px;
+  }
+  
+  .icon {
+    text-align: center;
+    color: #fff;
+
+
+  }
+  .icon p {
+    margin: 0; /* Remove default margins from the paragraph */
+    color: #fff;
+    padding: 20px 0;
+    font-weight: bold;font-size: 20px;
+  }
+  .icon-box:hover {
+    background-color: #000000;
+  }
+  
+  @media (min-width: 768px) {
+    .banner-icons {
+      grid-template-columns: repeat(5, 1fr); /* 3 columns on tablets and larger screens */
+    }
+    .banner-container{
+        background-image: url('../../assets//abstract-black-02.jpg');
+        min-height: 500px;
+    }
+    .banner-title03{
+        padding: 100px;
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+        font-size: 200px;
+    }
+    .youtube{
+        /* max-width: 1200px; */
+        margin-top: 80px;
+        border-radius: 50px;
+        max-height: 550px;
+    }
+    /* .youtube01{
+        margin-top: 50px;
+        min-height: 350px;
+    } */
+  }
+  @media (max-width: 480px) {
+    .banner-icons {
+      grid-template-columns: repeat(2, 1fr); /* 3 columns on tablets and larger screens */
+    }
+    .banner-title03{
+        padding: 0px;
+        text-align: center;
+        font-weight: bold;
+        color: #fff;
+        font-size: 150px;
+    }
+    .youtube01{
+        display: none !important;
+    }
+    .banner-container{
+        background-image: url('../../assets//abstract-black-02.jpg');
+        max-height: 1050px;
+     
+    }
+  }
+  
+  /* Add this CSS to your stylesheet */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; /* Ensure it's above other content */
+  }
+  
+  .popup-content {
+    background-color: transparent;
+    /* padding: 20px; */
+    border-radius: 15px;
+    position: relative;
+   
+  }
+  
+  .close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
